@@ -28,11 +28,11 @@ const Hero = () => {
                 </div>
                 </div>
             </div>
-            <Image src="/images/dashboard2.webp"
+            {/* <Image src="/images/dashboard2.webp"
             alt="dashboard"
             width={1000}
             height={500}
-            className="mt-9 rounded-xl border-2" />
+            className="mt-9 rounded-xl border-2" /> */}
         </section>
     </div>
   )

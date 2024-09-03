@@ -26,12 +26,13 @@ import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 
 
-function ExpensesCheck({params}) {
+function ExpensesCheck({ params }) {
 
   const {user} = useUser();
   const [budgetInfo, setBudgetInfo] = useState();
   const [expensesList, setExpensesList] = useState([]);
   const router = useRouter()
+  
   useEffect(() => {
     user&&getBudgetInfo();
   }, [user]);
