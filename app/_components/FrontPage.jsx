@@ -14,7 +14,7 @@ function FrontPage() {
       {/* Main Content Area */}
       <div className="flex flex-1">
         {/* Sidebar */}
-        <div className='w-64 border-r shadow-md'>
+        <div className=' border-r shadow-md'>
           <SideNav />
         </div>
 
