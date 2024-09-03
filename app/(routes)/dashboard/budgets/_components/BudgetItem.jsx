@@ -32,7 +32,7 @@ function BudgetItem({ budget }) {
             <h2 className="text-sm text-slate-500">${budget.amount-budget.totalSpend} Balance</h2>
           </div>
           <div className="w-full bg-slate-300 h-2 rounded-full">
-            <div className=" bg-blue-800 h-2 rounded-full" style={{
+            <div className=" bg-teal-900 h-2 rounded-full" style={{
               width:`${calculateProgressPerc()}%`
             }} >
 

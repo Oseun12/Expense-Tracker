@@ -17,8 +17,8 @@ function BarChartDashboard({budgetList}) {
           <YAxis />
           <Tooltip/>
           <Legend/>
-          <Bar dataKey="totalSpend" stackId="a" fill="#4845d2"/>
-          <Bar dataKey="amount" stackId="a" fill="#C3C2FF"/>
+          <Bar dataKey="totalSpend" stackId="a" fill="#264653"/>
+          <Bar dataKey="amount" stackId="a" fill="#7A929F"/>
 
         </BarChart>
       </ResponsiveContainer>
@@ -27,3 +27,6 @@ function BarChartDashboard({budgetList}) {
 }
 
 export default BarChartDashboard
+
+
+// #4845d2-blue', '#C3C2FF-light blue', '#F4A261-orange', , '#E76F51-deep orange', '#264653-deep green

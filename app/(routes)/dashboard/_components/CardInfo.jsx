@@ -36,21 +36,21 @@ function CardInfo({budgetList}) {
                     <h2 className='text-sm'>Total Budget</h2>
                     <h2 className='font-bold text-2xl'>${totalBudget}</h2>
                 </div>
-                <PiggyBank className='border h-12 w-12 p-3 rounded-full text-white bg-blue-950 hover:bg-blue-500 ' />
+                <PiggyBank className='border h-12 w-12 p-3 rounded-full text-white bg-teal-900  ' />
             </div>
             <div className='p-7 border rounded-lg flex items-center justify-between'>
                 <div>
                     <h2 className='text-sm'>Total Spend</h2>
                     <h2 className='font-bold text-2xl'>${totalSpend}</h2>
                 </div>
-                <ReceiptText className='border h-12 w-12 p-3 rounded-full text-white bg-blue-950 hover:bg-blue-500 ' />
+                <ReceiptText className='border h-12 w-12 p-3 rounded-full text-white bg-teal-900  ' />
             </div>
             <div className='p-7 border rounded-lg flex items-center justify-between'>
                 <div>
                     <h2 className='text-sm'>No. of Budget</h2>
                     <h2 className='font-bold text-2xl'>{budgetList?.length}</h2>
                 </div>
-                <Wallet className='border h-12 w-12 p-3 rounded-full text-white bg-blue-950 hover:bg-blue-500 ' />
+                <Wallet className='border h-12 w-12 p-3 rounded-full text-white bg-teal-900  ' />
             </div>
             </div>
         :
