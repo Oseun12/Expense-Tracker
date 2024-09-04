@@ -44,7 +44,7 @@ const SideNav = () => {
     return (
         <div className="flex">
             {/* Toggle button for small screens */}
-            <div className="p-4 md:hidden">
+            <div className="p-2 md:hidden">
                 <button 
                     onClick={() => setIsOpen(!isOpen)} 
                     className="text-gray-500 focus:outline-none"
@@ -65,7 +65,7 @@ const SideNav = () => {
                 <div className='mt-5'>
                     {menuList.map((menu) => (
                         <Link key={menu.id} href={menu.path}>
-                            <h2 className={`flex gap-2 items-center text-gray-500 font-medium mb-2 p-5 cursor-pointer rounded-md hover:text-white hover:bg-teal-900 ${path === menu.path && 'text-gray-500 bg-teal-100'}`}>
+                            <h2 className={`flex gap-2 items-center text-gray-500 font-medium mb-2 p-5 cursor-pointer rounded-md hover:text-white hover:bg-cyan-900 ${path === menu.path && 'text-gray-500 bg-cyan-100'}`}>
                                 <menu.icon />
                                 {menu.name}
                             </h2>

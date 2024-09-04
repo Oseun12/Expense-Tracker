@@ -19,7 +19,7 @@ function FrontPage() {
         </div>
 
         {/* Main Content */}
-        <main className="flex-1 p-10">
+        <main className="flex-1 p-5">
           <Hero />
         </main>
       </div>

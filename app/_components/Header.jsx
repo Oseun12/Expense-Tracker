@@ -19,7 +19,7 @@ const Header = () => {
         {isSignedIn? 
         <UserButton /> : 
         <Link href={'/sign-in'}>  
-          <Button>Get Started</Button> 
+          <Button className='bg-cyan-900 hover:bg-cyan-700'>Get Started</Button> 
         </Link>
       }
         

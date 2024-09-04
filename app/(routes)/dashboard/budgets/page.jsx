@@ -6,7 +6,7 @@ const Budget = () => {
     <div>
 
       <div className='p-10'>
-          <h2 className='font-bold text-5xl'>Budgetary Outline</h2>
+          <h2 className='font-bold text-2xl md:text-5xl'>Budgetary Outline</h2>
           <BudgetList/>
       </div>
     
