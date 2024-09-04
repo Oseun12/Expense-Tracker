@@ -10,7 +10,7 @@ const Header = () => {
 
   const {user, isSignedIn}=useUser();
   return (
-    <div className="p-5 flex justify-between items-center border shadow-md">
+    <div className="md:p-2 flex justify-between items-center border shadow-md">
         <Image src="/images/IMG_0364.jpg" 
         alt="logo"
         width={120}
